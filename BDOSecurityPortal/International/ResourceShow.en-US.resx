@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>BDO Cloud Office</value>
+    <comment>立信安全客户端</comment>
+  </data>
+  <data name="BindMsg_AssetBound" xml:space="preserve">
+    <value>Selected asset is in use, please select an available asset.</value>
+    <comment>资产已绑定</comment>
+  </data>
+  <data name="BindMsg_BindFailed" xml:space="preserve">
+    <value>The asset attaching process failed，please try again.</value>
+    <comment>资产绑定失败</comment>
+  </data>
+  <data name="BindMsg_EmptAuthorNO" xml:space="preserve">
+    <value>Please enter authorization code.</value>
+    <comment>授权编号为空</comment>
+  </data>
+  <data name="BindMsg_EmptyAsset" xml:space="preserve">
+    <value>Please select an asset.</value>
+    <comment>选择资产</comment>
+  </data>
+  <data name="BindStep1" xml:space="preserve">
+    <value>1. Please enter your domain account for asset attachment.</value>
+    <comment>绑定资产Step1</comment>
+  </data>
+  <data name="BindStep2" xml:space="preserve">
+    <value>2. Please select an asset to attach.</value>
+    <comment>绑定资产Step2</comment>
+  </data>
+  <data name="BindStep3" xml:space="preserve">
+    <value>3. Please enter the authorization code to generate soft key.</value>
+    <comment>绑定资产Step3</comment>
+  </data>
+  <data name="Cefsharp_CloseDevTools" xml:space="preserve">
+    <value>Close DevTools</value>
+    <comment>关闭开发工具</comment>
+  </data>
+  <data name="Cefsharp_DownloadComplete" xml:space="preserve">
+    <value>"{0}"file downloading completed.</value>
+    <comment>文件下载完成</comment>
+  </data>
+  <data name="Cefsharp_Reload" xml:space="preserve">
+    <value>Reload</value>
+    <comment>重新加载</comment>
+  </data>
+  <data name="Cefsharp_ShowDevTools" xml:space="preserve">
+    <value>Show DevTools</value>
+    <comment>打开开发工具</comment>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>修改密码</comment>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+    <comment>城市</comment>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Complete</value>
+    <comment>完成</comment>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>Copyright ©2017 立信会计师事务所（特殊普通合伙） All rights reserved</value>
+    <comment>@copyright</comment>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+    <comment>部门</comment>
+  </data>
+  <data name="DisplayAll" xml:space="preserve">
+    <value>Display all</value>
+    <comment>显示全部</comment>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>E-Mail</value>
+    <comment>邮箱</comment>
+  </data>
+  <data name="EmpNum" xml:space="preserve">
+    <value>Employee ID</value>
+    <comment>工号</comment>
+  </data>
+  <data name="GeneralMsg_AppAlreadyRun" xml:space="preserve">
+    <value>Application is already running, please open the application from taskbar.</value>
+    <comment>程序已运行</comment>
+  </data>
+  <data name="GeneralMsg_AppException" xml:space="preserve">
+    <value>Application failure, please contact administrator.</value>
+    <comment>程序异常</comment>
+  </data>
+  <data name="GeneralMsg_EmptyPwd" xml:space="preserve">
+    <value>Please enter password.</value>
+    <comment>输入密码</comment>
+  </data>
+  <data name="GeneralMsg_EmptyUser" xml:space="preserve">
+    <value>Please enter the domain account.</value>
+    <comment>输入用户名</comment>
+  </data>
+  <data name="GeneralMsg_ExitApp" xml:space="preserve">
+    <value>Are you sure you want to exit the BDO Cloud Office client?</value>
+    <comment>退出系统</comment>
+  </data>
+  <data name="GeneralMsg_HasplmsNotExist" xml:space="preserve">
+    <value>"Sentinel LDK License Manager" installation failed, please contact the system manager.</value>
+    <comment>软锁驱动未安装</comment>
+  </data>
+  <data name="GeneralMsg_NetworkOffline" xml:space="preserve">
+    <value>Network is not available. Please check your network.</value>
+    <comment>网络不存在</comment>
+  </data>
+  <data name="GeneralTitle_ExitApp" xml:space="preserve">
+    <value>Exit</value>
+    <comment>退出系统</comment>
+  </data>
+  <data name="GeneralTitle_Prompt" xml:space="preserve">
+    <value>Prompt</value>
+    <comment>提示</comment>
+  </data>
+  <data name="LastStep" xml:space="preserve">
+    <value>LastStep</value>
+    <comment>上一步</comment>
+  </data>
+  <data name="LineManager" xml:space="preserve">
+    <value>Supervisor</value>
+    <comment>直接上司</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+    <comment>登录按钮</comment>
+  </data>
+  <data name="LoginMsg_Disable" xml:space="preserve">
+    <value>The soft key is not enabled, please contact IT.</value>
+    <comment>资产异常</comment>
+  </data>
+  <data name="LoginMsg_MultipleAsset" xml:space="preserve">
+    <value>Multiple attachments detected, please contact the information technology department.  </value>
+    <comment>联系技术部门</comment>
+  </data>
+  <data name="LoginMsg_NotExistAssetUser" xml:space="preserve">
+    <value>User {0} doesn't exist in HR　system.</value>
+    <comment>资产所属用户不存在</comment>
+  </data>
+  <data name="LoginMsg_NotExistUser" xml:space="preserve">
+    <value>User {0} doesn't exist in HR　system.</value>
+    <comment>不存在登录用户</comment>
+  </data>
+  <data name="LoginMsg_NotSameGroup" xml:space="preserve">
+    <value>The user is not in the group who is eligible to login.</value>
+    <comment>不属于同一组，无法登录</comment>
+  </data>
+  <data name="LoginMsg_NotUniqueAssetUser" xml:space="preserve">
+    <value>User name {0} is not unique.</value>
+    <comment>资产所属用户不唯一</comment>
+  </data>
+  <data name="LoginMsg_NotUniqueUser" xml:space="preserve">
+    <value>User name {0} is not unique.</value>
+    <comment>登录用户不唯一</comment>
+  </data>
+  <data name="LoginMsg_Title" xml:space="preserve">
+    <value>Login Failed</value>
+    <comment>登录失败</comment>
+  </data>
+  <data name="MainForm_NotExistLoginUser" xml:space="preserve">
+    <value>retrieving user information failed, please log in again.</value>
+    <comment>用户信息获取失败</comment>
+  </data>
+  <data name="MainForm_NotExistSLCode" xml:space="preserve">
+    <value>Soft key does not exist.</value>
+    <comment>锁号不存在</comment>
+  </data>
+  <data name="MainForm_NotExistSubsystem" xml:space="preserve">
+    <value>Can not get the subsystem information, please contact the system manager.</value>
+    <comment>子系统信息获取失败</comment>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Mobile Phone</value>
+    <comment>手机</comment>
+  </data>
+  <data name="MsgBox_Abort" xml:space="preserve">
+    <value>&amp;Abort</value>
+    <comment>Abort</comment>
+  </data>
+  <data name="MsgBox_Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="MsgBox_Ignore" xml:space="preserve">
+    <value>&amp;Ignore</value>
+    <comment>Ignore</comment>
+  </data>
+  <data name="MsgBox_No" xml:space="preserve">
+    <value>&amp;No</value>
+    <comment>No</comment>
+  </data>
+  <data name="MsgBox_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="MsgBox_Retry" xml:space="preserve">
+    <value>&amp;Retry</value>
+    <comment>Retry</comment>
+  </data>
+  <data name="MsgBox_Yes" xml:space="preserve">
+    <value>&amp;Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="MsgTitle_Logout" xml:space="preserve">
+    <value>logout</value>
+    <comment>注销</comment>
+  </data>
+  <data name="Msg_LoginFailed" xml:space="preserve">
+    <value>Domain account or password is incorrect, please try again.</value>
+    <comment>域账号登录失败</comment>
+  </data>
+  <data name="Msg_Logout" xml:space="preserve">
+    <value>Are you sure you want to logout the current user {0}?</value>
+    <comment>注销用户</comment>
+  </data>
+  <data name="Msg_OldPwdFailed" xml:space="preserve">
+    <value>Old password is not correct.</value>
+    <comment>密码错误</comment>
+  </data>
+  <data name="Msg_PingServerFailed" xml:space="preserve">
+    <value>Connecting to server failed, please contact system administrator.</value>
+    <comment>服务器连接失败</comment>
+  </data>
+  <data name="NextStep" xml:space="preserve">
+    <value>NextStep</value>
+    <comment>下一步</comment>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Title</value>
+    <comment>职级</comment>
+  </data>
+  <data name="RememberPassword" xml:space="preserve">
+    <value>Remember password</value>
+    <comment>记住密码</comment>
+  </data>
+  <data name="RememberUser" xml:space="preserve">
+    <value>Remember user</value>
+    <comment>记住用户</comment>
+  </data>
+  <data name="ResetPwd_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>取消-按钮</comment>
+  </data>
+  <data name="ResetPwd_ConfirmPwd" xml:space="preserve">
+    <value>Confirm:</value>
+    <comment>确认密码</comment>
+  </data>
+  <data name="ResetPwd_EmptyConfirm" xml:space="preserve">
+    <value>Please confirm the password.</value>
+    <comment>确认密码信息</comment>
+  </data>
+  <data name="ResetPwd_EmptyNewPwd" xml:space="preserve">
+    <value>Please input the new password.</value>
+    <comment>新密码信息未输入</comment>
+  </data>
+  <data name="ResetPwd_NewPwd" xml:space="preserve">
+    <value>Password:</value>
+    <comment>新密码</comment>
+  </data>
+  <data name="ResetPwd_OldPwd" xml:space="preserve">
+    <value>Original:</value>
+    <comment>原密码</comment>
+  </data>
+  <data name="ResetPwd_PwdNotMatch" xml:space="preserve">
+    <value>Password must be consistent.</value>
+    <comment>密码一致验证</comment>
+  </data>
+  <data name="ResetPwd_ResetSuccess" xml:space="preserve">
+    <value>User password reset successfully.</value>
+    <comment>密码修改成功</comment>
+  </data>
+  <data name="ResetPwd_Submit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>修改密码-按钮</comment>
+  </data>
+  <data name="ResetPwd_Title" xml:space="preserve">
+    <value>Reset Password</value>
+    <comment>修改密码窗体-标题</comment>
+  </data>
+  <data name="ResetPwd_UserName" xml:space="preserve">
+    <value>User Name:</value>
+    <comment>用户名</comment>
+  </data>
+  <data name="ShortNum" xml:space="preserve">
+    <value>Speed dial</value>
+    <comment>短号</comment>
+  </data>
+  <data name="SLKeyCode" xml:space="preserve">
+    <value>Key:</value>
+    <comment>密锁锁号</comment>
+  </data>
+  <data name="Telphone" xml:space="preserve">
+    <value>Telephone</value>
+    <comment>座机</comment>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>{0}，Welcome to BDO Cloud Office.</value>
+    <comment>欢迎语</comment>
+  </data>
+</root>

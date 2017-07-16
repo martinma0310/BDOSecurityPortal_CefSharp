@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+	<description>Application autoUpdate</description>
+	<Updater>
+		<Url>http://mtest.bdo.com.cn/BDOSecurityPortal/ClientUpdates/</Url>
+		<LastUpdateTime>2017-02-13</LastUpdateTime>
+	</Updater>
+	<Application applicationId="BDOSecurityPortal">
+		<EntryPoint>BDOSecurityPortal.exe</EntryPoint>
+		<Location>.</Location>
+		<Version>1.0.00.00</Version>
+	</Application>
+	<Files>
+	</Files>
+</AutoUpdater>
