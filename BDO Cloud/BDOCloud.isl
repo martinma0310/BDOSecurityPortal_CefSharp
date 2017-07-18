@@ -4808,7 +4808,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{D77B3DD0-690A-4E9C-BBAB-89FBE0346A66}</td><td/></row>
+		<row><td>ProductCode</td><td>{8E3871EE-8609-4F60-ACEB-BBEA64751EE9}</td><td/></row>
 		<row><td>ProductName</td><td>立信云办公</td><td/></row>
 		<row><td>ProductVersion</td><td>1.0.00.03</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
@@ -4825,7 +4825,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{95C5901F-3098-4512-B189-0E70E658EEB7}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{3E1C4C4B-E23B-4E97-B065-2FD3E6D0511F}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>

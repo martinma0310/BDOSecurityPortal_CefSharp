@@ -165,7 +165,8 @@ namespace BDOSecurityPortal
             {
 
                 InitializeComponent();
-
+                Rectangle rect = Screen.GetWorkingArea(this);
+                this.MaximumSize = new Size(rect.Width, rect.Height);
                 //初始化窗体信息
                 InitializeFormInfo();
 

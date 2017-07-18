@@ -330,7 +330,7 @@ namespace BDOSecurityPortal
                 //this.MaximumSize = new Size(Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.WorkingArea.Height);
 
                 InitializeComponent();
-
+                ResetAllControlLayout();
                 //存储登录用户相关信息
                 ThisSLCode = slKeyCode;
                 SLCodeList = slKeyCodeList;
@@ -371,6 +371,20 @@ namespace BDOSecurityPortal
             }
         }
 
+        private void ResetAllControlLayout()
+        {
+            Rectangle rect = Screen.GetWorkingArea(this);
+            this.Size = new Size(rect.Width, rect.Height);
+            int mainCenterHeight = panelMain.Height - toolStripBottom.Height;
+            panelLeft.Location = new Point(0, 0);
+            panelRight.Location = new Point(panelLeft.Width - 5, 0);
+
+            panelLeft.Height = mainCenterHeight;
+            panelRight.Height = mainCenterHeight;
+            panelRight.Width = panelMain.Width - panelRight.Location.X;
+            tableLayoutPanel1.Height = panelLeft.Height;
+            tableLayoutPanel1.AutoScroll = true; 
+        }
         /// <summary>
         /// 绑定用户相关信息
         /// </summary>
