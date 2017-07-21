@@ -142,17 +142,11 @@
   <data name="tel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\leftbar\tel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.4_bind\bg_btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bg_footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\footer\bg_footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ico_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\icon\ico_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.1_login\checkbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="huanyuan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\huanyuan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +157,20 @@
   <data name="app_qr_code" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\footer\app_qr_code.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\systemimage\1.1_login\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ico_banben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.2_home\nav\ico_banben.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.1_login\bg2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mima_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.1_login\mima_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.2_home\talk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.2_home\icon\ico_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_leftbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\leftbar\bg_leftbar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -183,6 +183,9 @@
   </data>
   <data name="help_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.1_login\help_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.4_bind\btn_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ico_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.4_bind\ico_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,14 +247,8 @@
   <data name="ico_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\icon\ico_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ico_banben" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.2_home\nav\ico_banben.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="CLOSE_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.3_browser\CLOSE-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ico_mima" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.4_bind\ico_mima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_btn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.4_bind\bg_btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,6 +307,9 @@
   <data name="city" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\leftbar\city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.2_home\footer\chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ico_esc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\nav\ico_esc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -319,17 +319,17 @@
   <data name="suoxiao_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.1_login\suoxiao_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="miyao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.2_home\footer\miyao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ico_mima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.4_bind\ico_mima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="talk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.2_home\talk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\systemimage\1.1_login\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_nav" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\nav\bg_nav.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn_close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.4_bind\btn_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.4_bind\bg_btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_blue__h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\bg_blue-_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,8 +337,8 @@
   <data name="bdo_cloud_app" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\bdo_cloud_app.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ico_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SystemImage\1.2_home\icon\ico_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="miyao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.2_home\footer\miyao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\leftbar\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,7 +361,10 @@
   <data name="esc_h1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\nav\esc_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SystemImage\1.1_login\checkbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SystemImage\1.2_home\footer\chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

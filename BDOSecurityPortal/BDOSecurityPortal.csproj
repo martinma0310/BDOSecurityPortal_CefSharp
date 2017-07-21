@@ -385,7 +385,9 @@
     <Content Include="SystemImage\1.2_home\footer\bg_footer.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="SystemImage\1.2_home\footer\chat.png" />
+    <None Include="SystemImage\1.2_home\footer\chat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="SystemImage\1.2_home\footer\miyao.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

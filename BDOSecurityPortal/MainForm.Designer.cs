@@ -238,7 +238,7 @@
             // tsBtnChat
             // 
             this.tsBtnChat.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsBtnChat.Image = global::BDOSecurityPortal.Properties.Resources.talk1;
+            this.tsBtnChat.Image = global::BDOSecurityPortal.Properties.Resources.chat;
             this.tsBtnChat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnChat.Name = "tsBtnChat";
             this.tsBtnChat.Size = new System.Drawing.Size(23, 22);
@@ -327,17 +327,17 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(11, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.95085F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.227684F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(191, 640);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.02F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.219999F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(191, 620);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel13
@@ -346,9 +346,9 @@
             this.panel13.Controls.Add(this.labelMail);
             this.panel13.Controls.Add(this.pictureBox10);
             this.panel13.Controls.Add(this.label26);
-            this.panel13.Location = new System.Drawing.Point(3, 583);
+            this.panel13.Location = new System.Drawing.Point(3, 564);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(185, 54);
+            this.panel13.Size = new System.Drawing.Size(185, 53);
             this.panel13.TabIndex = 9;
             // 
             // lblMail
@@ -397,7 +397,7 @@
             this.panel12.Controls.Add(this.labelShortNum);
             this.panel12.Controls.Add(this.pictureBox9);
             this.panel12.Controls.Add(this.label10);
-            this.panel12.Location = new System.Drawing.Point(3, 524);
+            this.panel12.Location = new System.Drawing.Point(3, 507);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(185, 51);
             this.panel12.TabIndex = 8;
@@ -449,7 +449,7 @@
             this.panel11.Controls.Add(this.labelTelphone);
             this.panel11.Controls.Add(this.pictureBox8);
             this.panel11.Controls.Add(this.label9);
-            this.panel11.Location = new System.Drawing.Point(3, 465);
+            this.panel11.Location = new System.Drawing.Point(3, 450);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(185, 51);
             this.panel11.TabIndex = 7;
@@ -501,7 +501,7 @@
             this.panel10.Controls.Add(this.labelMobile);
             this.panel10.Controls.Add(this.pictureBox7);
             this.panel10.Controls.Add(this.label8);
-            this.panel10.Location = new System.Drawing.Point(3, 406);
+            this.panel10.Location = new System.Drawing.Point(3, 393);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(185, 51);
             this.panel10.TabIndex = 6;
@@ -553,7 +553,7 @@
             this.panel9.Controls.Add(this.labelLineManager);
             this.panel9.Controls.Add(this.pictureBox6);
             this.panel9.Controls.Add(this.label7);
-            this.panel9.Location = new System.Drawing.Point(3, 347);
+            this.panel9.Location = new System.Drawing.Point(3, 336);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(185, 51);
             this.panel9.TabIndex = 5;
@@ -605,7 +605,7 @@
             this.panel8.Controls.Add(this.labelRank);
             this.panel8.Controls.Add(this.pictureBox5);
             this.panel8.Controls.Add(this.label6);
-            this.panel8.Location = new System.Drawing.Point(3, 288);
+            this.panel8.Location = new System.Drawing.Point(3, 279);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(185, 51);
             this.panel8.TabIndex = 4;
@@ -657,7 +657,7 @@
             this.panel7.Controls.Add(this.labelEmpNum);
             this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Controls.Add(this.label5);
-            this.panel7.Location = new System.Drawing.Point(3, 229);
+            this.panel7.Location = new System.Drawing.Point(3, 222);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(185, 51);
             this.panel7.TabIndex = 3;
@@ -709,7 +709,7 @@
             this.panel6.Controls.Add(this.labelDepartment);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Controls.Add(this.label4);
-            this.panel6.Location = new System.Drawing.Point(3, 170);
+            this.panel6.Location = new System.Drawing.Point(3, 165);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(185, 51);
             this.panel6.TabIndex = 2;
@@ -813,7 +813,7 @@
             this.panel5.Controls.Add(this.lblCityname);
             this.panel5.Controls.Add(this.labelCity);
             this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(3, 111);
+            this.panel5.Location = new System.Drawing.Point(3, 108);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(185, 51);
             this.panel5.TabIndex = 1;

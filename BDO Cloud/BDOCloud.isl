@@ -2123,6 +2123,7 @@
 		<row><td>cefsharp.winforms.dll</td><td>CefSharp.WinForms.dll</td><td>CEFSHA~1.DLL|CefSharp.WinForms.dll</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Project1\聊天包\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\CefSharp.WinForms.dll</td><td>1</td><td/></row>
 		<row><td>cefsharp.winforms.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>CEFSHA~1.XML|CefSharp.WinForms.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Project1\聊天包\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\CefSharp.WinForms.xml</td><td>1</td><td/></row>
 		<row><td>cefsharp.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>CefSharp.xml</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Project1\聊天包\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\CefSharp.xml</td><td>1</td><td/></row>
+		<row><td>chat.png</td><td>ISX_DEFAULTCOMPONENT5</td><td>chat.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Project1\聊天包\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\SystemImage\1.2_home\footer\chat.png</td><td>1</td><td/></row>
 		<row><td>check.png</td><td>ISX_DEFAULTCOMPONENT3</td><td>check.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\SystemImage\1.1_login\check.png</td><td>1</td><td/></row>
 		<row><td>checkbox.png</td><td>ISX_DEFAULTCOMPONENT3</td><td>checkbox.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\SystemImage\1.1_login\checkbox.png</td><td>1</td><td/></row>
 		<row><td>city.png</td><td>ISX_DEFAULTCOMPONENT7</td><td>city.png</td><td>0</td><td/><td/><td/><td>1</td><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\SystemImage\1.2_home\leftbar\city.png</td><td>1</td><td/></row>
@@ -3860,8 +3861,6 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME11</td><td>2052</td><td>卸载立信云办公</td><td>0</td><td/><td>-1734007953</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME12</td><td>1033</td><td>卸载立信云办公</td><td>0</td><td/><td>-1734000464</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME12</td><td>2052</td><td>卸载立信云办公</td><td>0</td><td/><td>-1734000464</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME13</td><td>1033</td><td>卸载立信云办公</td><td>0</td><td/><td>-618301682</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME13</td><td>2052</td><td>卸载立信云办公</td><td>0</td><td/><td>-618301682</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME14</td><td>1033</td><td/><td>0</td><td/><td>-1423636950</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME14</td><td>2052</td><td>立信云~1|立信云办公</td><td>0</td><td/><td>-1423636341</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td/><td>0</td><td/><td>-2136645553</td></row>
@@ -4300,7 +4299,6 @@
 		<row><td>BDOSecurityPortal._D6FD412FD762496C822ED57534695FAC.exe</td><td/><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\BDOSecurityPortal.exe</td><td>0</td></row>
 		<row><td>NewShortcut1_A9AE9BDC001541A4A1C15595220BE105.exe</td><td/><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\BDOSecurityPortal.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_4433C59EAE2340A3A4C2D668529E8EA6.exe</td><td/><td>E:\立信\BDOSecurityPortal_CefSharp\BDOSecurityPortal\bin\x86\Release\BDOSecurityPortal.exe</td><td>0</td></row>
-		<row><td>Shortcut_6CCC47D7BCCD49469AAE2C06EB7D49CA.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4825,7 +4823,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{3E1C4C4B-E23B-4E97-B065-2FD3E6D0511F}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{A6CF8603-858C-4A07-9B0E-5F0368B4D555}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4890,7 +4888,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>FileKey1</td><td>AutoUpdate.exe</td><td/><td>company_name1</td><td>2</td></row>
 		<row><td>FileKey2</td><td>AutoUpdate.exe</td><td/><td>bdocloud</td><td>2</td></row>
 		<row><td>FileKey3</td><td>BDOSecurityPortal.exe1</td><td/><td>bdocloud</td><td>2</td></row>
-		<row><td>Shortcut</td><td>IS_ININSTALL_SHORTCUT</td><td/><td>company_name1</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4978,7 +4975,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="I4">ISAttributes</col>
 		<row><td>BDOSecurityPortal.exe</td><td>company_name1</td><td>##IDS_SHORTCUT_DISPLAY_NAME14##</td><td>BDOSecurityPortal.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>BDOSecurityPortal._07EE58E8F8DB4DB8980ED8F6AA904ED7.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>BDOSecurityPortal.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME14##</td><td>BDOSecurityPortal.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>BDOSecurityPortal._594DB2576D6D4CAC95B91B1E4BF03885.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>Shortcut</td><td>company_name1</td><td>##IDS_SHORTCUT_DISPLAY_NAME13##</td><td>IS_ININSTALL_SHORTCUT</td><td>[SystemFolder]msiexec.exe</td><td>/x {8E3871EE-8609-4F60-ACEB-BBEA64751EE9}</td><td/><td/><td>Shortcut_6CCC47D7BCCD49469AAE2C06EB7D49CA.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

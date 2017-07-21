@@ -382,8 +382,6 @@ namespace BDOSecurityPortal
             panelLeft.Height = mainCenterHeight;
             panelRight.Height = mainCenterHeight;
             panelRight.Width = panelMain.Width - panelRight.Location.X;
-            tableLayoutPanel1.Height = panelLeft.Height;
-            tableLayoutPanel1.AutoScroll = true; 
         }
         /// <summary>
         /// 绑定用户相关信息
@@ -747,20 +745,24 @@ namespace BDOSecurityPortal
             Label lblMore = new Label();
             lblMore.Name = "lblDisplayAll";
             lblMore.Parent = morePanel;
-            lblMore.AutoSize = false;                //设置AutoSize
-            lblMore.Width = DefaultLanguage == "zh-CN" ? 50 : 150;
-            lblMore.Height = DefaultLanguage == "zh-CN" ? 52 : 52;
+            //lblMore.AutoSize = false;                //设置AutoSize
+            //lblMore.Width = DefaultLanguage == "zh-CN" ? 50 : 150;
+            //lblMore.Height = DefaultLanguage == "zh-CN" ? 52 : 52;
 
             lblMore.BackColor = Color.Transparent;
             lblMore.ForeColor = Color.White;
-            lblMore.Text = ResourceCulture.GetString("DisplayAll");
+            //lblMore.Text = ResourceCulture.GetString("DisplayAll");
+            string lblText = ResourceCulture.GetString("DisplayAll");
+            lblMore.Text = lblText.Substring(0, lblText.Length / 2) + "\r\n" + lblText.Substring(lblText.Length / 2);
             lblMore.Font = new Font("宋体", 14F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(134)));
-            lblMore.Location = DefaultLanguage == "zh-CN" ? new Point(141, 50) : new Point(111, 50);
+            //lblMore.Location = DefaultLanguage == "zh-CN" ? new Point(141, 50) : new Point(111, 50);
 
             morePanel.Click += new EventHandler(moreSystem_Click);
             lblMore.Click += new EventHandler(moreSystem_Click);
 
             tlpSystemList.Controls.Add(morePanel);
+            lblMore.Size = morePanel.Size;
+            lblMore.TextAlign = ContentAlignment.MiddleCenter;
 
             lblMore.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Bottom)));
         }
@@ -1217,7 +1219,7 @@ namespace BDOSecurityPortal
                 chatNewMessageCheckTimer.Stop();
                 checkNewMessageResult = false;
                 isChatFormOpened = true;
-                tsBtnChat.Image = Properties.Resources.talk1;
+                tsBtnChat.Image = Properties.Resources.chat;
                 //tsBtnChat.Image = Properties.Resources.talk2;
             }
             catch(Exception ex)
@@ -1631,7 +1633,7 @@ namespace BDOSecurityPortal
         {
             if(flag)
             {
-                tsBtnChat.Image = Properties.Resources.talk1;
+                tsBtnChat.Image = Properties.Resources.chat;
                 flag = false;
 
                 this.notifyIcon.Icon = this.Icon;
