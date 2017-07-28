@@ -214,12 +214,9 @@ namespace BDOSecurityPortal
         //    Environment.Exit(0);
         //}
 
-
         private void ApplicationExit()
         {
             Cef.Shutdown();
-            this.notifyIcon.Dispose();
-            this.notifyMenu.Dispose();
             Application.Exit();
             Environment.Exit(0);
         }
@@ -374,7 +371,7 @@ namespace BDOSecurityPortal
         private void ResetAllControlLayout()
         {
             Rectangle rect = Screen.GetWorkingArea(this);
-            this.Size = new Size(rect.Width, rect.Height);
+            //this.Size = new Size(rect.Width, rect.Height);
             int mainCenterHeight = panelMain.Height - toolStripBottom.Height;
             panelLeft.Location = new Point(0, 0);
             panelRight.Location = new Point(panelLeft.Width - 5, 0);
@@ -616,7 +613,7 @@ namespace BDOSecurityPortal
             pbList.Add(pbSysImg);
         }
 
-        List<PictureBox> pbList = new List<PictureBox>();
+        private List<PictureBox> pbList = new List<PictureBox>();
 
         #region 缩放事件
         /// <summary>
@@ -776,10 +773,10 @@ namespace BDOSecurityPortal
         {
             try
             {
-                Control morePanel = tlpSysList.Controls.Find("moreSystemPanel", false).FirstOrDefault();
+                //Control morePanel = tlpSysList.Controls.Find("moreSystemPanel", false).FirstOrDefault();
                 tlpSysList.Controls.RemoveByKey("moreSystemPanel");
-                morePanel.Dispose();
-
+                //morePanel.Dispose();
+               
                 var subsystemList = UserSubsystemList;
                 int rowCount = Convert.ToInt32(Math.Ceiling((double)subsystemList.Count() / 3.0));
                 tlpSysList.Height = rowCount * 157;

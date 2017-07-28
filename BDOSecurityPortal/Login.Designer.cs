@@ -179,7 +179,7 @@
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(184, 16);
             this.labelVersion.TabIndex = 1002;
-            this.labelVersion.Text = "Version: 1.0.00.03Beta";
+            this.labelVersion.Text = "Version: 1.1.00.00Beta";
             // 
             // cbxUserName
             // 
