@@ -2,14 +2,30 @@
 <AutoUpdater>
 	<description>Application autoUpdate</description>
 	<Updater>
-		<Url>http://mtest.bdo.com.cn/BDOSecurityPortal/ClientUpdates/</Url>
-		<LastUpdateTime>2017-02-13</LastUpdateTime>
+		<Url>http://portal.bdo.com.cn/BDOSecurityPortal/ClientUpdates/</Url>
+		<LastUpdateTime>2017-07-28</LastUpdateTime>
 	</Updater>
 	<Application applicationId="BDOSecurityPortal">
 		<EntryPoint>BDOSecurityPortal.exe</EntryPoint>
 		<Location>.</Location>
-		<Version>1.0.00.00</Version>
+		<Version> </Version>
 	</Application>
 	<Files>
+    <File Ver="1.1.00.01" Name="zh-CN\BDOSecurityPortal.resources.dll" />
+    <File Ver="1.1.00.01" Name="en-US\BDOSecurityPortal.resources.dll" />
+    <File Ver="1.1.00.01" Name="SystemImage\APPChaticon.ico" />
+    <File Ver="1.1.00.01" Name="SystemImage\1.2_home\footer\chat.png" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.application" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.exe" />
+    <File Ver="1.1.00.01" Name="UpdateList.xml" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.exe.manifest" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.vshost.exe" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.exe.config" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.vshost.exe.config" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.vshost.application" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortalBLL.dll" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortal.vshost.exe.manifest" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortalModel.dll" />
+    <File Ver="1.1.00.01" Name="BDOSecurityPortalUtil.dll" />
 	</Files>
 </AutoUpdater>

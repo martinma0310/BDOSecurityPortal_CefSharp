@@ -175,11 +175,11 @@
             this.labelVersion.BackColor = System.Drawing.Color.Transparent;
             this.labelVersion.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Italic);
             this.labelVersion.ForeColor = System.Drawing.Color.Crimson;
-            this.labelVersion.Location = new System.Drawing.Point(832, 599);
+            this.labelVersion.Location = new System.Drawing.Point(869, 599);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(184, 16);
+            this.labelVersion.Size = new System.Drawing.Size(152, 16);
             this.labelVersion.TabIndex = 1002;
-            this.labelVersion.Text = "Version: 1.1.00.00Beta";
+            this.labelVersion.Text = "Version: 1.1.00.01";
             // 
             // cbxUserName
             // 

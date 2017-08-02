@@ -24,9 +24,14 @@ namespace BDOSecurityPortalBLL
         public static string GetEoopWebChatLoginURL(string userName, string password)
         {
             
-            string returnUrl = string.Format("{0}?username={1}&password={2}&logintype=winform", GetEoopAppSettings("EOOP_WEB_CHAT_AUTH"), userName, password);
+            string returnUrl = string.Format("{0}?username={1}&password={2}&logintype=winform", GetEoopChatAppSettings("EOOP_WEB_CHAT_AUTH"), userName, password);
             returnUrl = HttpUtility.UrlDecode(returnUrl);
             return returnUrl;
+        }
+
+        public static string GetEoopChatAppSettings(string appSettingName)
+        {
+            return GetAppSettings("EOOP_Chat_SERVER_PATH") + GetAppSettings(appSettingName);
         }
 
         /// <summary>
@@ -480,7 +485,7 @@ namespace BDOSecurityPortalBLL
         {
             try
             {
-                string eoopGetChatUnreadCountUrl = string.Format("{0}?userName={1}", GetEoopAppSettings("EOOP_CHAT_UNREADCOUNT"), userID);
+                string eoopGetChatUnreadCountUrl = string.Format("{0}?userName={1}", GetEoopChatAppSettings("EOOP_CHAT_UNREADCOUNT"), userID);
                 string result = GETEoopHttpRequest(eoopGetChatUnreadCountUrl);
 
                 ChatUnreadCountResult resultResponse = (ChatUnreadCountResult)JsonConvert.DeserializeObject(result, typeof(ChatUnreadCountResult));

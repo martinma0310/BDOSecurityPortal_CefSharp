@@ -547,7 +547,6 @@
     <Content Include="SystemImage\标注\立信web_01登录_PxCook.png" />
     <Content Include="SystemImage\标注\立信web_02主页（2）_PxCook.png" />
     <Content Include="UpdateList.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Plugins\vcredist_x86_2013.exe" />
