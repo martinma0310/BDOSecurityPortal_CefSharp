@@ -69,13 +69,25 @@ namespace BDOSecurityPortalBLL
             EncryptBiz encryptBiz = new EncryptBiz();
             string enctPwd = encryptBiz.EncryptDES(password, null, true);
             string md5Pwd = Md5Hash(password + systemKey);
-            string token = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(userName + DateTime.Now.ToString("yyyyMMdd") + systemKey, "MD5").ToLower();
-            //string token = Md5Hash(userName + DateTime.Now.ToString("yyyyMMdd") + systemKey);
-
+            //string token = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(userName + DateTime.Now.ToString("yyyyMMdd") + systemKey, "MD5").ToLower();
+            string token = Md5Hash(userName + DateTime.Now.ToString("yyyyMMdd") + systemKey).ToLower();
+            //string token = Md5HashPwd(userName + DateTime.Now.ToString("yyyyMMdd") + systemKey);
             string eoopServiceUrl = GetEoopAppSettings("BDO_USER_SUBSYSTEM_LOGIN_VERIFY");
             returnUrl = string.Format("{0}?username={1}&password={2}&systemid={3}&name={4}&url={5}&mid={6}&token={7}", eoopServiceUrl, userName, enctPwd, systemKey, systemName, systemUrl, md5Pwd, token);
             return returnUrl;
         }
+
+        //private static string Md5HashPwd(string input)
+        //{
+        //    MD5CryptoServiceProvider md5Hasher = new MD5CryptoServiceProvider();
+        //    byte[] data = md5Hasher.ComputeHash(Encoding.Default.GetBytes(input));
+        //    StringBuilder sBuilder = new StringBuilder();
+        //    for (int i = 0; i < data.Length; i++)
+        //    {
+        //        sBuilder.Append(data[i].ToString("x2"));
+        //    }
+        //    return sBuilder.ToString();
+        //}
 
         /// <summary>
         /// 用户登录
@@ -472,7 +484,7 @@ namespace BDOSecurityPortalBLL
         private static string Md5Hash(string inputSTR)
         {
             MD5CryptoServiceProvider md5Hasher = new MD5CryptoServiceProvider();
-            byte[] data = md5Hasher.ComputeHash(Encoding.Default.GetBytes(inputSTR));
+            byte[] data = md5Hasher.ComputeHash(Encoding.ASCII.GetBytes(inputSTR));
             StringBuilder sBuilder = new StringBuilder();
             for (int i = 0; i < data.Length; i++)
             {

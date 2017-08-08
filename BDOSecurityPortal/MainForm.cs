@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq; 
-using System.Windows.Forms; 
+using System.Linq;
+using System.Windows.Forms;
 using BDOSecurityPortalModel;
 using System.Net;
 using BDOSecurityPortalBLL;
@@ -11,7 +11,10 @@ using System.Configuration;
 using System.Threading;
 using System.Globalization;
 using System.Runtime.InteropServices;
-using CefSharp; 
+using CefSharp;
+using BDOSecurityPortalUtil;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace BDOSecurityPortal
 {
@@ -708,6 +711,8 @@ namespace BDOSecurityPortal
         {
             try
             {
+                
+                
                 string tag = ((Control)sender).Tag.ToString();
                 string ID = tag.Substring(0, tag.IndexOf("|"));
                 Link2System subsystem = UserSubsystemList.SingleOrDefault(s => s.ID.ToString() == ID);
@@ -716,7 +721,6 @@ namespace BDOSecurityPortal
                     MessageBox.Show(ResourceCulture.GetString("MainForm_NotExistSubsystem"), ResourceCulture.GetString("GeneralTitle_Prompt"));
                     return;
                 }
-
                 GotoSubsystem(subsystem);
             }
             catch (Exception ex)
@@ -825,6 +829,7 @@ namespace BDOSecurityPortal
         private void GotoSubsystem(Link2System subsystem)
         {
             string sysLoginUrl = EoopService.GetSubsystemLoginURL(UserName, Password, subsystem.Keyword, subsystem.Name, subsystem.Link);
+            
             //如果是配置的IE打开，则直接使用IE
             if (subsystem.IsUseIE == 1)
             {
